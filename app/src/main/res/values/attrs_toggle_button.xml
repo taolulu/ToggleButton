@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="ToggleButton">
+        <attr name="disabledColor" format="color" />
+        <attr name="enabledColor" format="color" />
+
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="basicColor" format="color" />
+        <attr name="defaultState">
+            <flag name="toggleOn" value="1" />
+            <flag name="toggleOff" value="0" />
+        </attr>
+    </declare-styleable>
+</resources>
